@@ -1,0 +1,55 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.panel-body{
+  background-color: white;
+}
+
+h1{
+  font-weight: bold;
+  color: gray;
+}
+
+h2{  
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  color: gray;
+}
+
+h3{  
+  font-weight: bold;
+  font-size: 25px;
+  text-align: left;
+  color: gray;
+  padding: 30px;
+}
+
+p2{  
+  text-align: left;
+  padding: 30px;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container2 > div {
+  width: 500px;
+  margin: 5px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  flex-grow: 100;
+}
+
+.table-stripe > tbody > tr:nth-child(2n+1) > td, .table-stripe > tbody > tr:nth-child(2n+1) > th {
+  background-color: #f1f1f1;
+}
